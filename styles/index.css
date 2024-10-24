@@ -1,0 +1,82 @@
+
+  *{
+    font-family: "Aldrich", sans-serif;
+  }
+
+  html,body{
+    background-color: rgb(43, 41, 41);
+  }
+
+  .topic1{
+
+    font-size:60px;
+    color:azure;
+    padding-top:10px;
+  }
+
+  
+  .topic2{
+
+    font-size:30px;
+    color:azure;
+    padding-top:30px;
+  }
+  #name{
+  cursor:pointer;
+  
+  padding:10px;
+ 
+  color:#262323;
+  font-weight:bold;
+  font-size:15px;
+  
+  }
+  input{
+    padding:10px;
+    margin:20px;
+    border-radius:7px;
+  }
+ 
+
+  #game{
+
+    margin:20px;
+    height:500px;
+    width:400px;
+    background-color:azure;
+  }
+
+ #welcome_text{
+  color:darkgoldenrod;
+  font-weight: bold;
+  font-size:28px;
+ }
+
+ .side_chooser{
+  font-size:25px;
+  color:midnightblue;
+ }
+.head_tail{
+  background-color: darkblue;
+  color:aliceblue;
+  padding:5px;
+  border-radius: 5px;
+  cursor:pointer;
+  width:100px;
+}
+#result{
+  color:black;
+  background-color: rgb(122, 154, 212);
+  font-size: 20px;
+  height:190px;
+  width:250px;
+  margin:10px;
+}
+#flipping{
+  color:#262323;
+  font-size:20px;
+  text-align:center;
+}
+ 
+  
+  

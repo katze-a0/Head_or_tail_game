@@ -2,9 +2,49 @@
 <head>
 </head>
 <link rel="stylesheet" href="./styles/index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 <title>Game</title>
 
 <body>
+    <center class="topic1"> Test your luck</center>
+    <center class="topic2">Play Head or Tail</center>
+    <div id="name">
+       <center> 
+        <form onsubmit="username_submit(event)"><span style="color:azure;"> Enter your username</span>
+            <br>
+       <input type="text" id="username" placeholder="username here" /><br>
+       <small style="color:gray";>username must be alteast 5 characters long<small><br><br>
+       <button type="submit">Start Game</button>
+        </form>
+    </center>
+    </div>
+<center>
+    <div id="game" style="display:none";>
+       <center id="welcome_text">
+    <p>Welcome <span id="user"> </span> </p>
+       </center>
+       <br><br>
+       <div class="side_chooser">
+        <b>Choose your side:</b><br>
+        <button class="head_tail" onClick="start_game('head')">HEAD</button>
+        <button class="head_tail" onClick="start_game('tail')">TAIL</button>
+    </div>
+    <br>
+    <div id="flipping"style="display:none";>Flipping the coin
+        <br>
+        <img src="./images/gifimage.gif"style="width:50px;">
+    </div>
+    <div id="result" style="display:none";>
+        <p>Result </p>
+    </div>
+    </div>
+  
+   
+</center>
+    
+    <script src="./js/index.js"></script>
 </body>
-<script src="./js/index.js"></script>
+
 </html>
